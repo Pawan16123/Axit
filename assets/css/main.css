@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+p{
+    color: #a9aaac ;
+}
+section{
+    padding: 0 150px;
+}
+header{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    color: white;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    padding: 0 10px;
+}
+
+section.banner{
+    background-image: url(../images/bannerimage.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 650px;
+
+}
+section.banner .banner__left-side{
+    width: 40%;
+    align-content: center;
+    padding: 0 25px;
+    /* background-color: rebeccapurple; */
+}
+section.banner .right-side{
+    width: 50%;
+}
+section.banner .banner__left-side img{
+    width: fit-content;
+}
+section.social-media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+section.social-media .social__right-side{
+    margin: auto;
+}
+section.social-media .social__left-side{
+    /* width: 30%; */
+    padding: 0 100px;
+    padding-left: 0;
+}
+section.social-media .social__left-side h2{
+    margin-bottom: 0;
+}
+section.social-media .social__left-side p{
+    margin-top: 5px;
+}
