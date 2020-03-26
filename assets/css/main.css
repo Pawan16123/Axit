@@ -270,3 +270,25 @@ footer img{
     width: fit-content;
 
 }
+
+
+
+input{
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.banner__right-side{
+    text-align: center;
+}
