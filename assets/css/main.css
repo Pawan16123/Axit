@@ -292,3 +292,14 @@ input::placeholder{
 .banner__right-side{
     text-align: center;
 }
+
+
+.banner__left-side button,
+.stylishaxure button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff8b38;
+    font-weight: bolder;
+    /* font-family: sans-serif; */
+}
