@@ -295,7 +295,8 @@ input::placeholder{
 
 
 .banner__left-side button,
-.stylishaxure button{
+.stylishaxure button,
+.tab-content button{
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
