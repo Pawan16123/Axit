@@ -304,3 +304,7 @@ input::placeholder{
     font-weight: bolder;
     /* font-family: sans-serif; */
 }
+
+.banner__right-side input[type="submit"]{
+    background-color: #331e1e ;
+}
