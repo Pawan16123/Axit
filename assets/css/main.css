@@ -309,3 +309,23 @@ input::placeholder{
     background-color: #03010a ;
     color: white;
 }
+
+.personimg {
+    display: flex;
+}
+
+.person-nameclub h3{
+    display: inline;
+    margin: 0;
+    
+}
+
+section.reviews .personid .personimg .person-nameclub p{
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.person-nameclub{
+    margin: 15px;
+}
